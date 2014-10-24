@@ -70,7 +70,7 @@ alias ze='vim ~/.zshrc'
 alias zr='source ~/.zshrc'
 
 # Git Aliases
-alias gs='git status'
+alias gs='git status -s'
 alias gstsh='git stash'
 alias gst='git stash'
 alias gsp='git stash pop'
@@ -202,3 +202,8 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+
+# Personal aliases
+alias git='hub'
+alias g='hub'
+alias e='ember'
