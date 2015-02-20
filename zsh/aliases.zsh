@@ -208,3 +208,9 @@ alias dbmu='spring rake db:migrate:up'
 # Homebrew
 alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
 
+# Tmux
+alias tml="tmux list-sessions"
+alias tma="tmux -2 attach -t $1"
+alias tmk="tmux kill-session -t $1"
+alias tms="tmux start $1"
+
