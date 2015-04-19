@@ -212,5 +212,5 @@ alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune &&
 alias tml="tmux list-sessions"
 alias tma="tmux -2 attach -t $1"
 alias tmk="tmux kill-session -t $1"
-alias tms="tmux start $1"
+alias tms="mux start $1"
 

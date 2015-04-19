@@ -126,5 +126,14 @@
 [include]
   path = .gitconfig.user
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[user]
+	name = Neilor Caldeira
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[credential]
+	helper = osxkeychain
