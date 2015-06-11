@@ -13,3 +13,6 @@ for fpath in split(globpath(vimsettings, '*.vim'), '\n')
 
   exe 'source' fpath
 endfor
+
+let g:syntastic_html_checkers=['']
+
